@@ -1,0 +1,18 @@
+uuid: 7cd422fa-7da0-46e4-9230-389273d877f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin
+id: block_content.admin.info
+field_name: info
+entity_type: block_content
+bundle: admin
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

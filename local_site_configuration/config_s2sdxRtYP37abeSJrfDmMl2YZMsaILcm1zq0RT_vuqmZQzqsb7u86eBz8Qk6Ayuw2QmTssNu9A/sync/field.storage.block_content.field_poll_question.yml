@@ -1,0 +1,20 @@
+uuid: 5d307ea2-b361-45f1-84d3-29e6c8fc2dd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - poll
+id: block_content.field_poll_question
+field_name: field_poll_question
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: poll
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

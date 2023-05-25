@@ -1,0 +1,20 @@
+uuid: 9a94e9aa-788d-4718-9c8f-d1fe1137eb91
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+id: node.investors.menu_link
+field_name: menu_link
+entity_type: node
+bundle: investors
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

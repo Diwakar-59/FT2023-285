@@ -1,0 +1,32 @@
+uuid: 77373e48-a2ce-4a6a-b051-7f64e7be9a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin
+    - field.field.block_content.admin.body
+    - field.field.block_content.admin.field_investors
+  module:
+    - text
+id: block_content.admin.default
+targetEntityType: block_content
+bundle: admin
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_investors:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

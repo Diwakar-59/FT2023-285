@@ -1,0 +1,20 @@
+uuid: b9d4592d-ba0f-4975-b5e7-1e48fce40aa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+  module:
+    - path
+id: node.investors.path
+field_name: path
+entity_type: node
+bundle: investors
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

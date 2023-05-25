@@ -1,0 +1,29 @@
+uuid: e30bafc1-7ece-47ea-b612-8261563459db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_investor
+    - node.type.investors
+    - node.type.restaurant
+id: node.restaurant.field_investor
+field_name: field_investor
+entity_type: node
+bundle: restaurant
+label: Investor
+description: 'Select the Investors who have invested in your property.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      investors: investors
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

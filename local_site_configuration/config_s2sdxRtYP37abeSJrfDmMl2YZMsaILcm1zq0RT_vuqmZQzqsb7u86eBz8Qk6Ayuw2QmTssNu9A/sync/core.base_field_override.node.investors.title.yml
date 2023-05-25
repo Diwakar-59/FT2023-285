@@ -1,0 +1,18 @@
+uuid: 610a0ef9-5b0c-4932-b1a2-8f0fce2872aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+id: node.investors.title
+field_name: title
+entity_type: node
+bundle: investors
+label: 'Investor Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

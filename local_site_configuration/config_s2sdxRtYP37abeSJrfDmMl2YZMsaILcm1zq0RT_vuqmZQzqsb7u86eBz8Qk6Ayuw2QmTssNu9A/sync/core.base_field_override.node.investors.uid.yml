@@ -1,0 +1,20 @@
+uuid: 928519db-44a8-45c0-8632-1bf1de5f6b58
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+id: node.investors.uid
+field_name: uid
+entity_type: node
+bundle: investors
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

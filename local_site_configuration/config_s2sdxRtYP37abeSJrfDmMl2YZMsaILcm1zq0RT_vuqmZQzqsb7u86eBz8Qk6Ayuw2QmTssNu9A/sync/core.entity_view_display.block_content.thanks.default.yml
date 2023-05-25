@@ -1,0 +1,23 @@
+uuid: c17f575c-b196-401c-9828-9ffcc60b824f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.thanks
+    - field.field.block_content.thanks.body
+  module:
+    - text
+id: block_content.thanks.default
+targetEntityType: block_content
+bundle: thanks
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

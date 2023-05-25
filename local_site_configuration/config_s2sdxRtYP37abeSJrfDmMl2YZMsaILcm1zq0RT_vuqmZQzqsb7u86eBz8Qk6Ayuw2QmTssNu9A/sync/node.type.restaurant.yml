@@ -1,0 +1,17 @@
+uuid: f82df5c5-9c0c-4944-8ce1-a81d77084435
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Restaurant
+type: restaurant
+description: 'Add a new restaurant.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

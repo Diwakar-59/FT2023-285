@@ -1,0 +1,30 @@
+uuid: 83c0c850-dd74-4881-924f-f6590ee0cde6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:admin:83baa246-5049-4aee-84e9-707156f50e94'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: investors
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:83baa246-5049-4aee-84e9-707156f50e94'
+settings:
+  id: 'block_content:83baa246-5049-4aee-84e9-707156f50e94'
+  label: Investors
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /investors

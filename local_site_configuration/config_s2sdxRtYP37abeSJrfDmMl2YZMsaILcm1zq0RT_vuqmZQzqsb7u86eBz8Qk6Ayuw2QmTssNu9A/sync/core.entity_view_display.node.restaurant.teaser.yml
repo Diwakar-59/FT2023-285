@@ -1,0 +1,39 @@
+uuid: d54d10e4-6eab-403e-8152-5254aa1f68ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.restaurant.body
+    - field.field.node.restaurant.field_contact_email
+    - field.field.node.restaurant.field_contact_number
+    - field.field.node.restaurant.field_investor
+    - field.field.node.restaurant.field_restaurant_category
+    - node.type.restaurant
+  module:
+    - text
+    - user
+id: node.restaurant.teaser
+targetEntityType: node
+bundle: restaurant
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_contact_email: true
+  field_contact_number: true
+  field_investor: true
+  field_restaurant_category: true
+  langcode: true

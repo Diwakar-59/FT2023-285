@@ -1,0 +1,23 @@
+uuid: 6c1603af-6adf-4e6e-ae78-d50a4f78379c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bool
+    - node.type.test
+id: node.test.field_bool
+field_name: field_bool
+entity_type: node
+bundle: test
+label: Bool
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

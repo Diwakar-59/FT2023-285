@@ -1,0 +1,32 @@
+uuid: a1f54c10-2cb6-435e-bcc8-bb40dbf81a2f
+langcode: hi
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.field.block_content.page_block.field_content
+    - field.field.block_content.page_block.field_description
+  module:
+    - text
+id: block_content.page_block.default
+targetEntityType: block_content
+bundle: page_block
+mode: default
+content:
+  field_content:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

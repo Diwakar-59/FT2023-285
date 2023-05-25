@@ -1,0 +1,18 @@
+uuid: f67dcdd9-7f66-49a9-836a-6e12b4f3107e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+id: node.investors.changed
+field_name: changed
+entity_type: node
+bundle: investors
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
