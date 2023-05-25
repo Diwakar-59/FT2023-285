@@ -1,0 +1,19 @@
+uuid: d2dfd735-ade9-4c77-a196-836cb9230599
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_email
+    - node.type.restaurant
+id: node.restaurant.field_contact_email
+field_name: field_contact_email
+entity_type: node
+bundle: restaurant
+label: 'Contact Email'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

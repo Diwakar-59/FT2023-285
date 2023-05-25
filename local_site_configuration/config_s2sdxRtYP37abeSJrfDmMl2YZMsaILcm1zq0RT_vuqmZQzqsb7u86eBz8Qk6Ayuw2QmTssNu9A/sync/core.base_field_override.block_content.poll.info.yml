@@ -1,0 +1,18 @@
+uuid: 410e0c88-972c-47b0-af29-e651eb3c6e88
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.poll
+id: block_content.poll.info
+field_name: info
+entity_type: block_content
+bundle: poll
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

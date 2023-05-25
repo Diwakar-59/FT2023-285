@@ -1,0 +1,38 @@
+uuid: 676d1199-2b81-4284-98fa-58d5b97542ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.restaurants
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - olivero
+id: views_block__restaurants_block_2
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:restaurants-block_2'
+settings:
+  id: 'views_block:restaurants-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/taxonomy/term/*'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

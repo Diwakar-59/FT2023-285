@@ -1,0 +1,8 @@
+uuid: 674edeaa-ce2f-4886-86ca-cd566b951b59
+langcode: hi
+status: true
+dependencies: {  }
+id: page_block
+label: 'Page Block'
+revision: 0
+description: 'Page block to display page and a description field.'

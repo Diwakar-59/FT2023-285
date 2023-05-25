@@ -1,0 +1,31 @@
+uuid: cdfe8743-f7b2-4f97-b59f-0a16c89a9488
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: error404
+label: error404
+code: |-
+  .error {
+  	color: red;
+  	background-color: blue;
+  	font-size: 2rem;
+  	height: 80px;
+  }
+
+  img {
+  	margin-left: 84px;
+  }
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      investors: investors
+contexts: {  }
+conditions_require_all: true

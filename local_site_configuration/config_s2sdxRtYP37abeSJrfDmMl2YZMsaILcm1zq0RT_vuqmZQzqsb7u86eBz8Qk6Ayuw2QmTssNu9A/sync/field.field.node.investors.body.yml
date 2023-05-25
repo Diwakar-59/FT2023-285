@@ -1,0 +1,23 @@
+uuid: efd6caf6-0217-473e-81c0-161d77e0facc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.investors
+  module:
+    - text
+id: node.investors.body
+field_name: body
+entity_type: node
+bundle: investors
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

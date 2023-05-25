@@ -1,0 +1,18 @@
+uuid: b3710b18-1226-49f9-96b2-14c5c016b2a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.investors
+target_entity_type_id: node
+target_bundle: investors
+default_langcode: site_default
+language_alterable: false

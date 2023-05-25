@@ -1,0 +1,19 @@
+uuid: bc97d609-23dd-4c94-b746-7f0091b4ab51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_number
+    - node.type.restaurant
+id: node.restaurant.field_contact_number
+field_name: field_contact_number
+entity_type: node
+bundle: restaurant
+label: 'Contact Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

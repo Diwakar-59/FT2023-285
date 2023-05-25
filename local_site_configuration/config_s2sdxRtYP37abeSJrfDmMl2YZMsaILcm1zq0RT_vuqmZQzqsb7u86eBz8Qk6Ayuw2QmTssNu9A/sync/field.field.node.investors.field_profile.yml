@@ -1,0 +1,23 @@
+uuid: 91458fc2-8e98-43ca-a481-729ca5231252
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile
+    - node.type.investors
+  module:
+    - link
+id: node.investors.field_profile
+field_name: field_profile
+entity_type: node
+bundle: investors
+label: Profile
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

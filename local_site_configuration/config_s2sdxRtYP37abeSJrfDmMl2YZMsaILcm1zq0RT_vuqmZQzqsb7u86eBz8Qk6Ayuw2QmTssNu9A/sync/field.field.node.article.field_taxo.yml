@@ -1,0 +1,29 @@
+uuid: 501fce55-6750-4fe0-9c2b-c099a43a5dcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxo
+    - node.type.article
+    - taxonomy.vocabulary.category
+id: node.article.field_taxo
+field_name: field_taxo
+entity_type: node
+bundle: article
+label: taxo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

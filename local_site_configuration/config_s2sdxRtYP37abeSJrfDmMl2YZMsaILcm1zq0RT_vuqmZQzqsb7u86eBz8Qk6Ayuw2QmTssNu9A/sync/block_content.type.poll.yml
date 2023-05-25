@@ -1,0 +1,8 @@
+uuid: d57f9c05-ef4b-4aa1-b499-01be9319d6e1
+langcode: en
+status: true
+dependencies: {  }
+id: poll
+label: Poll
+revision: 0
+description: 'Poll Question'

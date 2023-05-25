@@ -1,0 +1,22 @@
+uuid: 0a331cb3-a01e-41ac-a6b3-ab35acdf4ab0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: investor_url_alias
+label: 'Investor url alias'
+type: 'canonical_entities:node'
+pattern: 'investor/[node:title]'
+selection_criteria:
+  876599f7-f554-4c80-bf39-75f1cce33383:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 876599f7-f554-4c80-bf39-75f1cce33383
+    context_mapping:
+      node: node
+    bundles:
+      investors: investors
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,32 @@
+uuid: 1b9c3408-21aa-4e4a-aac0-93bbb547d020
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: home
+label: Home
+code: |-
+  .home {
+  	text-align: center;
+  	color: whitesmoke;
+  	background-color: blue;
+  	height: 50px;
+  }
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
+contexts: {  }
+conditions_require_all: true

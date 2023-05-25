@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 8a52971f-5e55-4606-a09f-c12b9c315e67
+name: 'Drupal Training'
+mail: diwakar.sah@innoraft.com
+slogan: 'The best place to understand Drupal concepts'
+page:
+  403: /node/3
+  404: /node/2
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

@@ -1,0 +1,33 @@
+uuid: 0a8368bb-c62d-46fa-8235-9ac49705a6b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_department
+field_name: field_department
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '<strong> IT </strong>'
+      label: '<strong> IT </strong>'
+    -
+      value: '<strong> HR </strong>'
+      label: '<strong> HR </strong>'
+    -
+      value: '<strong> Management </strong>'
+      label: '<strong> Management </strong>'
+    -
+      value: '<strong> Accounts </strong>'
+      label: '<strong> Accounts </strong>'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

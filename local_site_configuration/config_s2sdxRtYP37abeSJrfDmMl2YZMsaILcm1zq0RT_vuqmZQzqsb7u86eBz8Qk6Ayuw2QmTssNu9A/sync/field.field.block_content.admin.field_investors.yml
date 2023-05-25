@@ -1,0 +1,29 @@
+uuid: 796724a5-c2af-4199-8782-b928f4e93896
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin
+    - field.storage.block_content.field_investors
+    - node.type.investors
+id: block_content.admin.field_investors
+field_name: field_investors
+entity_type: block_content
+bundle: admin
+label: Investors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      investors: investors
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

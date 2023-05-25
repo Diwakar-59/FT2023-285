@@ -1,0 +1,52 @@
+uuid: a93885ba-3373-4b8e-96ee-3bb4c15d2efe
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - node.type.page
+  module:
+    - comment
+    - contact
+    - contextual
+    - devel_generate
+    - field_ui
+    - filter
+    - node
+    - pathauto
+    - poll
+    - system
+    - taxonomy
+    - toolbar
+id: content_publisher
+label: 'Content publisher'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access polls'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer contact_message fields'
+  - 'administer devel_generate'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer pathauto'
+  - 'administer poll display'
+  - 'administer taxonomy_term display'
+  - 'administer user display'
+  - 'create page content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'link to any page'
+  - 'revert page revisions'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view user email addresses'

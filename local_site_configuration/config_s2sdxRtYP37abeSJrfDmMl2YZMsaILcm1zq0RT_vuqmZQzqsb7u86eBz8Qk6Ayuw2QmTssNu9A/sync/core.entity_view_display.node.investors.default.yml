@@ -1,0 +1,57 @@
+uuid: 6baaf21a-5192-40e4-a4c9-26067157372f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.investors.body
+    - field.field.node.investors.field_profile
+    - field.field.node.investors.field_profile_image
+    - image.style.medium
+    - node.type.investors
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.investors.default
+targetEntityType: node
+bundle: investors
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_profile:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_profile_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

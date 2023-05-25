@@ -1,0 +1,22 @@
+uuid: bf0e22df-4986-4bf4-a1d4-a17fe5bffdd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.investors
+id: node.investors.promote
+field_name: promote
+entity_type: node
+bundle: investors
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

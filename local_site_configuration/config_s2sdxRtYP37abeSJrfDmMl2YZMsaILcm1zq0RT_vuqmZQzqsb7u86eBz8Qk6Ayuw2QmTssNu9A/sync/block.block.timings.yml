@@ -1,0 +1,30 @@
+uuid: b5fcf41c-1246-4900-be80-beadbc407619
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:34b5693d-c77e-4b42-9325-8e4b84854e4d'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: timings
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'block_content:34b5693d-c77e-4b42-9325-8e4b84854e4d'
+settings:
+  id: 'block_content:34b5693d-c77e-4b42-9325-8e4b84854e4d'
+  label: Timings
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /restaurants

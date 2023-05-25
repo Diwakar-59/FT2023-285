@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ পূর্ববর্তী'
+            next: 'পরবর্তী ›'
+            first: '« প্রথম'
+            last: 'শেষ »'
+      fields:
+        question:
+          label: প্রশ্ন
+        status_with_runtime:
+          label: সক্রিয়
+      filters:
+        question:
+          expose:
+            label: প্রশ্ন
+        status:
+          group_info:
+            label: সক্রিয়
+            group_items:
+              1:
+                title: হ্যাঁ
+              2:
+                title: না

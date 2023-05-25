@@ -1,0 +1,32 @@
+uuid: 46fa8359-97f3-4449-a079-611b7d1c8561
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+    - system
+id: error403
+label: error403
+code: |-
+  .error {
+  	color: red;
+  	background-color: blue;
+  	font-size: 2rem;
+  	height: 50px;
+  }
+media: all
+preprocess: true
+conditions:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /access-denied
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page
+contexts: {  }
+conditions_require_all: true

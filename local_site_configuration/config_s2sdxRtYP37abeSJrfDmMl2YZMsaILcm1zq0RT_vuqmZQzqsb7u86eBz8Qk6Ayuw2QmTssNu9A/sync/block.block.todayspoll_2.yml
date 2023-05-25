@@ -1,0 +1,30 @@
+uuid: 4ee01f21-7966-4c58-980d-ceb17b8da266
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:poll:e39ccc6e-3e6a-4626-b3e0-8a538f770cb7'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: todayspoll_2
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:e39ccc6e-3e6a-4626-b3e0-8a538f770cb7'
+settings:
+  id: 'block_content:e39ccc6e-3e6a-4626-b3e0-8a538f770cb7'
+  label: "Today's Poll"
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/home\r\n/"

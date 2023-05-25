@@ -1,0 +1,24 @@
+uuid: 54841fd4-c79e-4c2b-8e59-67176ba7ee38
+langcode: en
+status: true
+dependencies: {  }
+id: production
+label: Production
+description: 'Config file for Prod.'
+weight: 0
+folder: sites/default/files/config_s2sdxRtYP37abeSJrfDmMl2YZMsaILcm1zq0RT_vuqmZQzqsb7u86eBz8Qk6Ayuw2QmTssNu9A/prod
+module:
+  asset_injector: 0
+  ckeditor5: 0
+  devel: 0
+  devel_generate: 0
+  language: 0
+theme: {  }
+blacklist:
+  - asset_injector.css.error403
+  - asset_injector.css.error404
+graylist:
+  - asset_injector.css.error403
+  - asset_injector.css.error404
+graylist_dependents: true
+graylist_skip_equal: true

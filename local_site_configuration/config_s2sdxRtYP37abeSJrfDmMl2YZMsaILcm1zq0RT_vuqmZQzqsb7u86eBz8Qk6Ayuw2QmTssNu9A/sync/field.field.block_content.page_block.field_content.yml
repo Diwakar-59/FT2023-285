@@ -1,0 +1,29 @@
+uuid: cbbcae8e-bc0e-46ea-8ece-1be60e95f140
+langcode: hi
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.storage.block_content.field_content
+    - node.type.restaurant
+id: block_content.page_block.field_content
+field_name: field_content
+entity_type: block_content
+bundle: page_block
+label: content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      restaurant: restaurant
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
